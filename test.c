@@ -9,7 +9,7 @@
 #include <string.h>
 
 int main() {
-    // your tests here using malloc and free
+    // your tests here using malloc, realloc and free
 
     char *p = malloc(10);
     strcpy(p, "123456789");
