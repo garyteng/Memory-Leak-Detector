@@ -19,7 +19,7 @@ make clean
 ## How to use?
 * You only need to include "mini_valgrind.h" in your test file(test.c as an example).
 
-<pre>
+```
 #include "mini_valgrind.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -45,10 +45,10 @@ int main() {
     atexit(print_report); // generate output file
     return 0;
 }
-</pre>
+```
 
 * Following output will be generated in result.txt file
-<pre>
+```
 Heap report:
 
     Leak file test.c : line 28
@@ -67,4 +67,4 @@ Heap summary:
     Total memory usage: 810 bytes, Total memory free: 110 bytes
     Total leak: 700 bytes
 
-</pre>
+```
