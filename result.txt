@@ -1,0 +1,17 @@
+Heap report:
+
+	Leak file test.c : line 28
+	Leak size : 500 bytes
+	Leak memory address : 0x69a638
+
+	Leak file test.c : line 25
+	Leak size : 200 bytes
+	Leak memory address : 0x69a4c8
+
+
+Program made 1 bad call(s) to free.
+
+Heap summary:
+
+	Total memory usage: 810 bytes, Total memory free: 110 bytes
+	Total leak: 700 bytes

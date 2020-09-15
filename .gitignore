@@ -1,0 +1,6 @@
+.objs/
+libs/*
+
+memtest
+memtest-debug
+memtest-reference
